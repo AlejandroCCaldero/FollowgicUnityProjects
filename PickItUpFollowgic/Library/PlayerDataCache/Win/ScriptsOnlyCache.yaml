@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - GameOver
     - LoadGame
     - Platform
     - PlayerController
@@ -83,15 +84,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13438}
     - Class: 114
-      Script: {instanceID: 13738}
+      Script: {instanceID: 13504}
     - Class: 114
-      Script: {instanceID: 13792}
+      Script: {instanceID: 13740}
     - Class: 114
-      Script: {instanceID: 14070}
+      Script: {instanceID: 13794}
     - Class: 114
-      Script: {instanceID: 14354}
+      Script: {instanceID: 14072}
     - Class: 114
-      Script: {instanceID: 15106}
+      Script: {instanceID: 14356}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -111,6 +112,57 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
     - Class: 1971053207
+      Script: {instanceID: 0}
+    Assets/Scenes/GameOver.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11262}
+    - Class: 114
+      Script: {instanceID: 11554}
+    - Class: 114
+      Script: {instanceID: 11608}
+    - Class: 114
+      Script: {instanceID: 12270}
+    - Class: 114
+      Script: {instanceID: 12972}
+    - Class: 114
+      Script: {instanceID: 13740}
+    - Class: 114
+      Script: {instanceID: 14356}
+    - Class: 114
+      Script: {instanceID: 15864}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     Assets/Scenes/Menu.unity:
     - Class: 1
@@ -142,11 +194,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12972}
     - Class: 114
-      Script: {instanceID: 13738}
+      Script: {instanceID: 13740}
     - Class: 114
-      Script: {instanceID: 13862}
+      Script: {instanceID: 13864}
     - Class: 114
-      Script: {instanceID: 14354}
+      Script: {instanceID: 14356}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -538,6 +590,12 @@ ScriptsOnlyBuild:
     className: PlayerController
   - hash:
       serializedVersion: 2
+      Hash: c22f5b3fe2efaea257d93f6b925be1a0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: pauseMenu
+  - hash:
+      serializedVersion: 2
       Hash: 6939772cb3ce775a8e8d99f332534491
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -688,12 +746,13 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: c22f5b3fe2efaea257d93f6b925be1a0
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: pauseMenu
+    className: GameOver
   platform: 5
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/Game.unity
+  - Assets/Scenes/GameOver.unity
   playerPath: C:/Alejandro/UnityProjects/BuiltPickItUp/PickItUpFollowgic.exe

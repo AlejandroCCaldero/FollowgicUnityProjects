@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Platform : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class Platform : MonoBehaviour
         if(other.gameObject.tag == "Card" || other.gameObject.tag == "RareCard")
         {
             Destroy(other.gameObject);
+            SceneManager.LoadScene("GameOver");
         }    
     }
 }
